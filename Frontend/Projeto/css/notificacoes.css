@@ -1,0 +1,36 @@
+/* notificacoes.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #conteudo {
+    padding: 20px;
+  }
+  
+  .notificacoes {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .notificacao {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .notificacao p {
+    margin: 0;
+  }
+  
+  .notificacao .data {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+  }
+  

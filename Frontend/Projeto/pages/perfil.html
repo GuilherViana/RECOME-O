@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/perfil.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Página Inicial</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+      <li><a href="notificacoes.html">Notificações</a></li>
+      <li><a href="suporte.html">Suporte</a></li>
+    </ul>
+  </nav>
+  <div id="conteudo">
+    <h1>Perfil do Usuário</h1>
+    <section class="perfil-info">
+      <img src="../images/avatar.png" alt="Avatar do Usuário" class="avatar">
+      <h2>Nome do Usuário</h2>
+      <p>Email: usuario@exemplo.com</p>
+      <p>Bio: Breve descrição do usuário.</p>
+    </section>
+    <section class="perfil-editar">
+      <h3>Editar Perfil</h3>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="Nome do Usuário">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="usuario@exemplo.com">
+        
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio">Breve descrição do usuário.</textarea>
+        
+        <button type="submit">Salvar</button>
+      </form>
+    </section>
+  </div>
+  <script src="../js/script.js"></script>
+  <script src="../js/navbar.js"></script>
+</body>
+</html>
